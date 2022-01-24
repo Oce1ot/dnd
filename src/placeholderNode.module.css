@@ -1,0 +1,16 @@
+.node-placeholdre {
+  transform: translateY(-50%);
+  animation: start 0.2s;
+  height: 54px;
+}
+
+@keyframes start {
+  0% {
+    padding: 0;
+    height: 0;
+  }
+
+  100% {
+    height: 54px;
+  }
+}

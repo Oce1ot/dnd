@@ -1,0 +1,75 @@
+.root-tree-container {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.root-tree-container:last-child {
+  padding-bottom: 0;
+}
+
+.root-tree {
+  padding: 8px 16px;
+  background: #ebebeb;
+  border-radius: 20px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.root-list {
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+  padding-bottom: 8px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.root-list:last-child {
+  margin: 0;
+  padding-bottom: 0px;
+}
+
+.dropTarget {
+  background: #5243c2;
+  transition: all 0.3s ease-in-out;
+}
+
+.draggingSource {
+  transition: all 0.3s ease-in-out;
+}
+
+/* buttons */
+
+.btnGroup {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn {
+  width: 120px;
+  height: 42px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: column;
+}

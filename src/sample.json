@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "parent": 0,
+    "droppable": true,
+    "text": "Телефоны и Гаджеты",
+    "data": {
+      "checked": false
+    }
+  },
+  {
+    "id": 2,
+    "parent": 1,
+    "droppable": true,
+    "text": "Телефоны",
+    "data": {
+      "checked": false
+    }
+  },
+  {
+    "id": 3,
+    "parent": 2,
+    "droppable": false,
+    "text": "Iphone 13 PRO",
+    "data": {
+      "checked": false
+    }
+  },
+  {
+    "id": 7,
+    "parent": 0,
+    "droppable": true,
+    "text": "Кухонная Техника",
+    "data": {
+      "checked": false
+    }
+  },
+  {
+    "id": 8,
+    "parent": 7,
+    "droppable": false,
+    "text": "Холодильники",
+    "data": {
+      "checked": false
+    }
+  },
+  {
+    "id": 9,
+    "parent": 2,
+    "droppable": false,
+    "text": "Iphone 13 PRO",
+    "data": {
+      "checked": false
+    }
+  }
+]

@@ -1,0 +1,50 @@
+.rootNode {
+  display: flex;
+  align-items: center;
+  padding-inline-end: 8px;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 0px 2px 6px rgba(66, 66, 66, 0.12);
+  border-radius: 12px;
+  padding: 15px;
+  position: relative;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.icon-box {
+  gap: 8px;
+  cursor: pointer;
+}
+
+.checkbox {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.isOpen {
+  transform: rotate(90deg);
+}
+
+.labelGridItem {
+  padding-inline-start: 8px;
+}
+
+.draggingStart::after,
+.draggingStart::before {
+  content: none;
+  display: none;
+  width: 0;
+  height: 0;
+  margin: 0 !important;
+  margin-inline-start: 0;
+  background: transparent;
+  opacity: 0;
+}
+.hide,
+.hide + ul {
+  opacity: 0;
+}
